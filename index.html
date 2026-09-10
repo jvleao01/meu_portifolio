@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Web Freelancer</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-code"></i> <span>João Victor</span><span class="highlight">.dev</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://wa.me/5531986928456" target="_blank" class="btn btn-outline nav-btn">
+                <i class="fa-brands fa-whatsapp"></i> Falar Comigo
+            </a>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Banner de Apresentação -->
+        <section id="home" class="hero-section">
+            <div class="hero-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">
+                        <i class="fa-solid fa-bolt"></i> Desenvolvedor Web Freelancer
+                    </span>
+                    <h1 class="hero-title">
+                        Transformando ideias em <span class="gradient-text">Soluções Digitais</span> de Alto Impacto
+                    </h1>
+                    <p class="hero-description">
+                        Olá! Meu nome é <strong class="text-white">João Victor Cezario Leão</strong>. Desenvolvo sites modernos, rápidos e otimizados para destacar sua empresa ou negócio no mercado digital.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/5531986928456" target="_blank" class="btn btn-primary">
+                            <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento
+                        </a>
+                        <a href="#projetos" class="btn btn-secondary">
+                            <i class="fa-solid fa-briefcase"></i> Ver Projetos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Espaço para Imagem de Banner / Perfil -->
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <div class="image-placeholder main-avatar">
+                            <!-- Substitua o src abaixo pela sua foto ex: assets/img/perfil.jpg -->
+                            <img src="assets/img/perfil.png" alt="Seu Nome" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim / Carreira -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Minha Trajetória</span>
+                    <h2 class="section-title">Sobre Mim & <span class="gradient-text">Carreira</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Espaço para Imagem Ilustrativa ou Foto Profissional -->
+                    <div class="about-image-wrapper">
+                        <div class="image-placeholder about-img-box">
+                            <img src="assets/img/fab.jpeg" alt="Sobre mim" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <h3>Paixão por Tecnologia & Determinação</h3>
+                        <p>
+                            Sou um desenvolvedor web apaixonado por criar soluções digitais inovadoras. Tenho experiência em HTML, CSS, JavaScript, Java, Python e frameworks modernos. Meu objetivo é desenvolver aplicações web de alta qualidade que atendam e superem as necessidades dos meus clientes.
+                        </p>
+                        
+                        <div class="career-card">
+                            <div class="career-icon">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div class="career-info">
+                                <h4>Experiência Militar & Resiliência</h4>
+                                <p>
+                                    Sou ex-militar da Força Aérea Brasileira, onde servi por 3 anos — atuando como Guarda e Bombeiro de Aeródromo. Essa vivência me proporcionou alto grau de disciplina, liderança, trabalho sob pressão e busca contínua pela excelência.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i> Atendimento personalizado para freelancers e empresas
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i> Foco em experiência do usuário (UX) e desempenho
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i> Sites 100% responsivos para celular e computador
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formação Acadêmica / Universidade Atual (Texto à Esquerda, Imagem à Direita) -->
+                <div class="university-block">
+                    <div class="university-grid">
+                        <div class="university-content">
+                            <span class="badge-sub">
+                                <i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica
+                            </span>
+                            <h3>Estudos & Universidade Atual</h3>
+                            <p>
+                                Atualmente estou cursando minha graduação em Ciência da Computação, aprofundando meus conhecimentos teóricos e práticos para desenvolver soluções modernas e de alto desempenho.
+                            </p>
+                            <p>
+                                Também possuo curso técnico em Informática, pela POLIMIG, onde adquiri habilidades essenciais em programação, redes e manutenção de sistemas.
+                            </p>
+                            
+                            <div class="university-card">
+                                <div class="university-icon">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <div class="university-info">
+                                    <h4>Newton Paiva / Ciência da Computação</h4>
+                                    <span class="status-badge"><i class="fa-solid fa-spinner fa-spin-pulse"></i> Em andamento</span>
+                                    <p>Foco em desenvolvimento de software, arquitetura de sistemas, banco de dados e novas tecnologias web.</p>
+                                </div>
+                            </div>
+
+                            <div class="about-highlights">
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-circle-check"></i> Aprendizado prático e evolução constante
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fa-solid fa-circle-check"></i> Alinhamento com as melhores práticas e demandas do mercado
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Espaço para Imagem da Faculdade / Campus (à Direita) -->
+                        <div class="university-image-wrapper">
+                            <div class="image-placeholder university-img-box">
+                                <img src="assets/img/Newton.png" alt="Minha Universidade" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços Freelancer -->
+        <section id="servicos" class="section bg-darker">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">O Que Eu Ofereço</span>
+                    <h2 class="section-title">Serviços para o Seu <span class="gradient-text">Negócio</span></h2>
+                    <div class="title-bar center"></div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h3>Sites Profissionais</h3>
+                        <p>Desenvolvimento de sites institucionais modernos, rápidos e elegantes para posicionar sua marca no mercado.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h3>Design Responsivo</h3>
+                        <p>Garantia de que seu site funcionará perfeitamente em smartphones, tablets e computadores de todos os tamanhos.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3>Manutenção & Otimização</h3>
+                        <p>Atualização de sistemas, melhorias de velocidade de carregamento (SEO) e suporte contínuo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Minhas Competências</span>
+                    <h2 class="section-title">Habilidades <span class="gradient-text">Técnicas</span></h2>
+                    <div class="title-bar center"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 skill-icon html-icon"></i>
+                        <h4>HTML</h4>
+                        <span>Estruturação Semântica</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt skill-icon css-icon"></i>
+                        <h4>CSS</h4>
+                        <span>Estilização & Flexbox/Grid</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js skill-icon js-icon"></i>
+                        <h4>JavaScript</h4>
+                        <span>Interatividade & Lógica</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java skill-icon java-icon"></i>
+                        <h4>Java</h4>
+                        <span>Backend & Lógica</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python skill-icon python-icon"></i>
+                        <h4>Python</h4>
+                        <span>Automação & Dados</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt skill-icon git-icon"></i>
+                        <h4>Git & GitHub</h4>
+                        <span>Controle de Versão</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="section bg-darker">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Portfólio</span>
+                    <h2 class="section-title">Meus <span class="gradient-text">Projetos</span></h2>
+                    <div class="title-bar center"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <div class="image-placeholder project-img-box">
+                                <img src="assets/img/projeto1.jpg" alt="Projeto 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="placeholder-fallback">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                    <span>Imagem do Projeto 1</span>
+                                    <small>Coloque a print em <code>assets/img/projeto1.jpg</code></small>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3>Website Institucional</h3>
+                            <p>Desenvolvimento de site moderno e responsivo com foco em apresentação de serviços e captação de clientes.</p>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <div class="image-placeholder project-img-box">
+                                <img src="assets/img/projeto2.jpg" alt="Projeto 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="placeholder-fallback">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    <span>Imagem do Projeto 2</span>
+                                    <small>Coloque a print em <code>assets/img/projeto2.jpg</code></small>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Python</span>
+                            </div>
+                            <h3>Sistema Web de Gestão</h3>
+                            <p>Aplicação web para automação de processos e controle de dados com interface intuitiva.</p>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <div class="image-placeholder project-img-box">
+                                <img src="assets/img/projeto3.jpg" alt="Projeto 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="placeholder-fallback">
+                                    <i class="fa-solid fa-rocket"></i>
+                                    <span>Imagem do Projeto 3</span>
+                                    <small>Coloque a print em <code>assets/img/projeto3.jpg</code></small>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                <a href="#" target="_blank" class="icon-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Landing Page</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                            <h3>Landing Page de Conversão</h3>
+                            <p>Página otimizada para lançamento de produto com design chamativo em tom escuro e alta velocidade de resposta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Vamos Conversar?</span>
+                    <h2 class="section-title">Entre em <span class="gradient-text">Contato</span></h2>
+                    <div class="title-bar center"></div>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-card main-contact">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp Direct</h3>
+                        <p>Precisa de um orçamento ou tem dúvidas sobre um projeto? Fale comigo agora mesmo!</p>
+                        <a href="https://wa.me/5531986928456" target="_blank" class="btn btn-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i> Enviar Mensagem no WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="contact-socials">
+                        <h3>Redes Sociais & Perfis</h3>
+                        <p>Conecte-se comigo pelas redes sociais ou confira meus repositórios no GitHub:</p>
+                        <div class="social-buttons">
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-cezario-le%C3%A3o-10279824a/" target="_blank" class="social-btn linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/jvleao01" target="_blank" class="social-btn github">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.instagram.com/jvleao__/" target="_blank" class="social-btn instagram">
+                                <i class="fa-brands fa-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 <strong>João Victor Cezario Leão</strong>. Todos os direitos reservados. Desenvolvedor Web Freelancer.</p>
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#projetos">Projetos</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para interatividade do menu mobile -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
